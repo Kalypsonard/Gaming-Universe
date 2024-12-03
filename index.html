@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaming Universe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav id="navbar">
+   <div id="logo-container">
+     <img src="images/manette.png" alt="Logo du site" id="logo">
+     <span id="site-name">Gaming Universe</span>
+   </div>
+   <nav id="main-nav">
+          <ul class="dropdown-menu">
+            <li><a href="?theme=E-sport">E-sport</a></li>
+            <li><a href="?theme=Événements">Événements</a></li>
+            <li><a href="?theme=Sorties">Sorties</a></li>
+            <li><a href="?theme=Indépendants">Jeux Indépendants</a></li>
+          </ul>
+        </li>
+    </nav>
+    
+   <div id="nav-actions">
+     <button id="subscribe-btn">S'abonner</button>
+     <div id="user-profile">
+       <img src="images/img09.png" alt="Profil Utilisateur" id="profile-icon">
+     </div>
+   </div>
+ </nav>
+
+<!-- Hero Banner -->
+<section id="hero-banner">
+  <!-- Magazine Information -->
+  <section id="magazine-info">
+     <h1 id="magazine-name"></h1>
+     <p id="magazine-tagline"></p>
+  </section>
+     
+  <section id="themes">
+    <h3>Thèmes</h3>
+  </section>
+</section>
+ 
+ <!-- Article Principal -->
+ <section id="main-article">
+   <img id="main-article-image" alt="Image de l'article principal">
+   <div id="main-article-info">
+     <h2 id="main-article-title"></h2>
+     <p id="main-article-description"></p>
+     <p id="main-article-date"></p>
+   </div>
+ </section>
+ 
+ <!-- Liste des Articles -->
+ <section id="articles">
+   <h3>Articles Récents</h3>
+   <div id="articles-list" class="articles-container"></div>
+ </section>
+ 
+ <!-- Auteurs -->
+ <section id="authors">
+   <h3>Auteurs</h3>
+   <div id="authors-list"></div>
+ </section>
+
+ <button id="scroll-to-top" title="Haut de page">⇪</button>
+  <script src="script.js"></script>
+</body>
+
+<footer id="site-footer">
+   <div class="footer-container">
+     <div class="footer-logo">
+       <img src="images/manette.png" alt="Logo du site">
+       <h4>GeekNews</h4>
+     </div>
+     <div class="footer-links">
+       <nav>
+         <ul>
+           <li><a href="#hero-banner">Accueil</a></li>
+           <li><a href="#articles">Articles</a></li>
+           <li><a href="#themes">Thèmes</a></li>
+           <li><a href="#authors">Auteurs</a></li>
+         </ul>
+       </nav>
+     </div>
+     <div class="footer-socials">
+       <p>Suivez-nous :</p>
+       <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+       <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+       <a href="https://instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+     </div>
+   </div>
+   <div class="footer-bottom">
+     <p>&copy; 2024 Gaming Universe. Tous droits réservés.</p>
+   </div>
+ </footer>
+ 
+</html>
