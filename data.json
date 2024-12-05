@@ -3,50 +3,7 @@
       "nomJournal": "Gaming Universe",
       "phraseAccroche": "Le rendez-vous des passionnés de jeux vidéo et de l'e-sport",
       "texteAppelAction": "Abonnez-vous",
-      "articlePrincipal": {
-        "titre": "Ma Meilleure Ennemie : L'Union Improbable de Stromae et Pomme",
-        "description": "Plongez dans l'univers envoûtant de 'Ma Meilleure Ennemie', un morceau qui fusionne les voix uniques de Stromae et Pomme. Cette collaboration explosive, inspirée par la chanson phare de la série Arcane, mélange l'électro-pop de Stromae avec la douceur intime de Pomme, créant une alchimie parfaite entre conflit et harmonie. Un hymne à la dualité des émotions, où l'amour et la haine se rencontrent dans un crescendo de mélodies puissantes et de paroles poignantes.",
-        "date": "23 Novembre 2024",
-        "theme": "Événements",
-        "image": "images/actu.png"
-      },
-      "articles": [
-        {
-          "titre": "Cyberpunk 2077 : Phantom Liberty dépasse les attentes",
-          "date": "28 Novembre 2024",
-          "theme": "Sorties",
-          "image": "images/cyberpunk.png",
-          "description": "Le DLC 'Phantom Liberty' de Cyberpunk 2077 a surpris les joueurs et les critiques par son contenu riche et ses nouveautés."
-        },
-        {
-          "titre": "Arcane Saison 2 : Déjà un succès mondiale",
-          "date": "23 Novembre 2024",
-          "theme": "Événements",
-          "image": "images/arcane.png",
-          "description": "L'attente de la saison 2 d'Arcane est enfin terminée et le succès mondial est déjà au rendez-vous."
-        },
-        {
-          "titre": "League of Legends : Les résultats des World 2024",
-          "date": "25 Septembre 2024",
-          "theme": "E-sport",
-          "image": "images/world.png",
-          "description": "Les résultats des World 2024 ont été marqués par des performances exceptionnelles."
-        },
-        {
-          "titre": "League of Legends : Les nouveautés de la présaison 2025",
-          "date": "10 Novembre 2024",
-          "theme": "E-sport",
-          "image": "images/Udyr.jpg",
-          "description": "Découvrez les changements majeurs de la présaison 2025. Nouvelles runes, équilibrages et mises à jour des champions."
-        },
-        {
-          "titre": "Les meilleurs jeux indépendants : Gris, une pépite méconnue",
-          "date": "5 Décembre 2024",
-          "theme": "Indépendants",
-          "image": "images/gris.png",
-          "description": "Plongez dans l'univers enchanteur de Gris, un chef-d'œuvre visuel et narratif qui s'est hissé parmi les incontournables des jeux indépendants."
-        }
-      ],
+      "menuItems": ["Événements", "Sorties", "E-sport", "Indépendants"],
       "themes": [
         {
           "nom": "Événements",
@@ -63,6 +20,50 @@
         {
           "nom": "Indépendants",
           "description": "Les jeux indés qui méritent votre attention."
+        }
+      ],
+      "articlePrincipal": {
+        "titre": "Ma Meilleure Ennemie : L'Union Improbable de Stromae et Pomme",
+        "description": "Plongez dans l'univers envoûtant de 'Ma Meilleure Ennemie', un morceau qui fusionne les voix uniques de Stromae et Pomme. Cette collaboration explosive, inspirée par la chanson phare de la série Arcane, mélange l'électro-pop de Stromae avec la douceur intime de Pomme, créant une alchimie parfaite entre conflit et harmonie. Un hymne à la dualité des émotions, où l'amour et la haine se rencontrent dans un crescendo de mélodies puissantes et de paroles poignantes.",
+        "date": "23 Novembre 2024",
+        "theme": "Événements",
+        "image": "images/actu.png"
+      },
+      "articles": [
+        {
+          "titre": "Cyberpunk 2077 : Phantom Liberty dépasse les attentes",
+          "date": "28 Novembre 2024",
+          "theme": "Sorties",
+          "image": "images/cyberpunk.png",
+          "description": "Le DLC 'Phantom Liberty' de Cyberpunk 2077 a surpris les joueurs et les critiques par son contenu riche et ses nouveautés."
+        },
+        {
+          "titre": "Arcane Saison 2 : Déjà un succès mondial",
+          "date": "23 Novembre 2024",
+          "theme": "Événements",
+          "image": "images/arcane.png",
+          "description": "L'attente de la saison 2 d'Arcane est enfin terminée et le succès mondial est déjà au rendez-vous."
+        },
+        {
+          "titre": "League of Legends : Les résultats des World 2024",
+          "date": "25 Septembre 2024",
+          "theme": "E-sport",
+          "image": "images/world.png",
+          "description": "Les résultats des World 2024 ont été marqués par des performances exceptionnelles."
+        },
+        {
+          "titre": "League of Legends : Les nouveautés de la présaison 2025",
+          "date": "10 Novembre 2024",
+          "theme": "Sorties",
+          "image": "images/Udyr.jpg",
+          "description": "Découvrez les changements majeurs de la présaison 2025. Nouvelles runes, équilibrages et mises à jour des champions."
+        },
+        {
+          "titre": "Les meilleurs jeux indépendants : Gris, une pépite méconnue",
+          "date": "5 Décembre 2024",
+          "theme": "Indépendants",
+          "image": "images/gris.png",
+          "description": "Plongez dans l'univers enchanteur de Gris, un chef-d'œuvre visuel et narratif qui s'est hissé parmi les incontournables des jeux indépendants."
         }
       ],
       "auteurs": [
@@ -87,3 +88,4 @@
       ]
     }
   }
+  
